@@ -141,7 +141,7 @@ body{
 	font-size: 24px;
 	margin-bottom: 20px;
 }
-.list-services .button{
+.list-services .button a{
 	display: inline-block;
 	text-decoration: none;
 	padding: 10px 15px;
@@ -188,87 +188,4 @@ body{
 	text-align: center;
 	color: #FFFFFF;
 	font-family: "the_light_fontregular";
-}
-/* now make it responsive  */
-@media screen and (max-width: 1360px){
-
-	.center{
-        width: auto;
-        padding: 0 20px;
-        margin: 0;
-    }
-}
-
-
-@media screen and (max-width : 1036px) {
-
-        #notification-subscribe .left-content,
-    #notification-subscribe .right-content{
-        float: none;
-        text-align: center;
-    }
-    #notification-subscribe .right-content{
-        padding-top : 10px;
-    }
-
-
-    .content-list .list-services,
-    .content-list .list-services.last{
-        width: auto;
-        display: block;
-        float: none;
-        margin-bottom: 15px;
-    }
-}
-
-@media screen and (max-width: 826px) {
-
-
-    #header .navigation,
-    #header #logo{
-        float: none;
-        width: auto;
-        margin: 0 auto;
-    }
-    #header #logo{
-        margin-bottom: 10px;
-    }
-    #header #logo img{
-        margin: 0 auto;
-        display : table;
-    }
-    #header .navigation ul{
-        display: table;
-        margin : 0 auto;
-    }
-
-    #banner h1{
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-	 #header .navigation,
-    #header #logo{
-        float: none;
-        width: auto;
-        margin: 0 auto;
-    }
-    #header #logo{
-        margin-bottom: 10px;
-    }
-    #header #logo img{
-        margin: 0 auto;
-        display : table;
-    }
-    #header .navigation ul{
-        display: table;
-        margin : 0 auto;
-        padding: 0 auto;
-    }
-
-    #banner h1{
-        font-size: 30px;
-    }
-}
 }
